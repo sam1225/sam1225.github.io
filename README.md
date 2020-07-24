@@ -86,13 +86,16 @@ All 4 of the Possible /26 Networks for 192.168.1.* (valid subnets at 4th octet):
 
 This web application performs the same operations as the sncalc tool.
 
-Click [HERE](https://sam1225.github.io/sncalc_web/) to use the app.
-
-----
-----
-
-
-
 ***It is written in HTML, CSS, Javascript, & Bootstrap.***
+
+Click [HERE](https://sam1225.github.io/sncalc_web/) to use the app.
+Click [HERE](https://github.com/sam1225/sncalc_web) to go to the repository.
+
+----
+----
+
+
+
+
 
 
