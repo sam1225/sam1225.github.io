@@ -10,7 +10,7 @@ command can be used.
 ***It is written in Golang and tested on most Linux variants (Red Hat, Debian, & SUSE).***
 
 Click [minfo_binary] to download the app to run on a Linux machine.
-[minfo_binary]:{{ https://github.com/sam1225/minfo/blob/master/minfo }}/download/file.pdf
+[minfo_binary]:{{ https://github.com/sam1225/minfo }}/minfo
 
 Click [HERE](https://github.com/sam1225/minfo) to go to the repository.
 
