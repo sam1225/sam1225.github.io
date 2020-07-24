@@ -9,10 +9,9 @@ command can be used.
 
 ***It is written in Golang and tested on most Linux variants (Red Hat, Debian, & SUSE).***
 
-Click [minfo_binary] to download the app to run on a Linux machine.
-[minfo_binary]:{{ https://github.com/sam1225/minfo }}/minfo
+[DOWNLOAD](https://github.com/sam1225/minfo/raw/master/minfo)
 
-Click [HERE](https://github.com/sam1225/minfo) to go to the repository.
+[Repository Link](https://github.com/sam1225/minfo)
 
 ```markdown
 $ ./minfo
@@ -58,7 +57,7 @@ manageable subnets.
 
 ***It is written in Golang and works on either Linux or Windows machines.***
 
-Click [HERE](https://github.com/sam1225/sncalc) to go to the repository.
+[Repository Link](https://github.com/sam1225/sncalc)
 
 ```markdown
 $ ./sncalc 192.168.1.0 26
@@ -95,9 +94,9 @@ This web application performs the same operations as the sncalc tool.
 
 ***It is written in HTML, CSS, Javascript, & Bootstrap.***
 
-Click [HERE](https://sam1225.github.io/sncalc_web/) to use the app.
+[Web Link](https://sam1225.github.io/sncalc_web/)
 
-Click [HERE](https://github.com/sam1225/sncalc_web) to go to the repository.
+[Repository Link](https://github.com/sam1225/sncalc_web)
 
 ----
 ----
