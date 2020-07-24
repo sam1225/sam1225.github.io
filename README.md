@@ -1,8 +1,8 @@
-## Sanjeev's GitHub Pages
+## Header 2 Sanjeev's GitHub Pages
 
 List of my projects on GitHub:
 
-### Minfo (short for minimal information)
+### Header 3 Minfo (Minimal info)
 
 Minfo is a tool for Linux Systems that displays a very succint overview of the OS.
 Instead of running multiple commands to know various aspects of the OS, a single 
@@ -43,9 +43,8 @@ IPv4 Info:
 
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### sncalc (short for subnet calcultor)
+### Header 3 sncalc (Subnet calcultor)
 
 This tool takes an network IP address and CIDR value as input and provides useful 
 information like the network address, broadcast address, host range in the network, 
@@ -83,7 +82,7 @@ All 4 of the Possible /26 Networks for 192.168.1.* (valid subnets at 4th octet):
 
 ```
 
-### Subnet Calculator - a web app
+### Header 3 Subnet Calculator - A Web App
 
 This web application performs the same operations as the sncalc tool.
 
