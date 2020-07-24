@@ -9,6 +9,11 @@ command can be used.
 
 ***It is written in Golang and tested on most Linux variants (Red Hat, Debian, & SUSE).***
 
+Click [minfo_binary] to download the app to run on a Linux machine.
+[minfo_binary]:{{ https://github.com/sam1225/minfo/blob/master/minfo }}/download/file.pdf
+
+Click [HERE](https://github.com/sam1225/minfo) to go to the repository.
+
 ```markdown
 $ ./minfo
 Minfo is a tool for displaying minimal system & network information.
@@ -52,6 +57,8 @@ with the IP & CIDR provided so that a large network can be subdivided into small
 manageable subnets.
 
 ***It is written in Golang and works on either Linux or Windows machines.***
+
+Click [HERE](https://github.com/sam1225/sncalc) to go to the repository.
 
 ```markdown
 $ ./sncalc 192.168.1.0 26
