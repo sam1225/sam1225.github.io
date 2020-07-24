@@ -1,37 +1,92 @@
-## Welcome to GitHub Pages
+## Sanjeev's GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/sam1225/sam1225.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+List of my projects on GitHub:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Minfo (short for minimal information)
 
-### Markdown
+Minfo is a tool for Linux Systems that displays a very succint overview of the OS.
+Instead of running multiple commands to know various aspects of the OS, a single 
+command can be used.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+It is written in Golang and tested on most Linux variants (Red Hat, Debian, & SUSE).
 
 ```markdown
-Syntax highlighted code block
+$ ./minfo
+Minfo is a tool for displaying minimal system & network information.
 
-# Header 1
-## Header 2
-### Header 3
+Usage: minfo [OPTION]
 
-- Bulleted
-- List
+  -h, --help          this message
+  -V, --version       output version information
+  -a, --all           displays all information
+  -s, --sysinfo       displays system information
+  -i, --ipinfo        displays ip information
 
-1. Numbered
-2. List
+$ ./minfo -a
+System Info:
+  CPU(s)                                  : 1
+  CPU Model                               : Intel(R) Core(TM) i5 CPU       M 480  @ 2.67GHz
+  Architecture                            : x86-64
+  Total Memory                            : 997956 kB / 974 MB / 0 GB
+  Uptime                                  : 141.94 secs / 2 mins / 0 hours / 0 days
+  Operating System                        : CentOS Linux 7 (Core)
+  Kernel                                  : Linux 3.10.0-862.el7.x86_64
+  System Type                             : Virtual Machine (vmware)
+  Hostname                                : cos7
+  Time Zone                               : America/Chicago (CDT, -0500)
 
-**Bold** and _Italic_ and `Code` text
+IPv4 Info:
+  interface                                 ip
+  ---------                                 ---------
+  ens33[0]                                : 192.168.229.20/24
+  docker0[0]                              : 172.17.0.1/16
 
-[Link](url) and ![Image](src)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+### sncalc (short for subnet calcultor)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sam1225/sam1225.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+This tool takes an network IP address and CIDR value as input and provides useful 
+information like the network address, broadcast address, host range in the network, 
+and wildcard mask, among others. This website also provides a list of subnets possible 
+with the IP & CIDR provided so that a large network can be subdivided into smaller 
+manageable subnets.
 
-### Support or Contact
+It is written in Golang and works on either Linux or Windows machines.
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+```markdown
+$ ./sncalc 192.168.1.0 26
+
+IP Address                              : 192.168.1.0
+Network Address                         : 192.168.1.0
+Usable Host IP Range                    : 192.168.1.1 - 192.168.1.62
+Broadcast Address                       : 192.168.1.63
+Total Hosts per Subnet                  : 64   (2^unmasked bits) => (2^6)
+Usable Hosts per Subnet                 : 62   (2^unmasked bits - 2) => (2^6 - 2)
+Subnet Mask                             : 255.255.255.192
+Wildcard Mask                           : 0.0.0.63
+Binary Subnet Mask                      : 11111111.11111111.11111111.11000000
+CIDR Notation                           : /26
+Binary Octets                           : 11000000.10101000.00000001.00000000
+Network Bits (total masked bits)        : 26
+Hosts Bits (unmasked bits)              : 6
+
+Number of Subnets: 4   (2^masked bits on 4th octet) => (2^2)
+All 4 of the Possible /26 Networks for 192.168.1.* (valid subnets at 4th octet):
+  Network Address      Usable Host Range                        Broadcast Address
+  ---------------      -----------------                        -----------------
+  192.168.1.0          192.168.1.1 - 192.168.1.62               192.168.1.63 [current]
+  192.168.1.64         192.168.1.65 - 192.168.1.126             192.168.1.127
+  192.168.1.128        192.168.1.129 - 192.168.1.190            192.168.1.191
+  192.168.1.192        192.168.1.193 - 192.168.1.254            192.168.1.255
+
+```
+
+### Subnet Calculator - a web app
+
+This web application performs the same operations as the sncalc tool.
+
+It is written in HTML, CSS, Javascript, & Bootstrap.
+
+
