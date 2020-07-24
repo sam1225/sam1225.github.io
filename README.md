@@ -1,6 +1,4 @@
-## Sanjeev's GitHub Pages
-
-List of my projects on GitHub:
+List of projects on GitHub:
 
 ----
 ### Minfo (Minimal info)
@@ -9,7 +7,7 @@ Minfo is a tool for Linux Systems that displays a very succint overview of the O
 Instead of running multiple commands to know various aspects of the OS, a single 
 command can be used.
 
-It is written in Golang and tested on most Linux variants (Red Hat, Debian, & SUSE).
+***It is written in Golang and tested on most Linux variants (Red Hat, Debian, & SUSE).***
 
 ```markdown
 $ ./minfo
@@ -26,7 +24,7 @@ Usage: minfo [OPTION]
 $ ./minfo -a
 System Info:
   CPU(s)                                  : 1
-  CPU Model                               : Intel(R) Core(TM) i5 CPU       M 480  @ 2.67GHz
+  CPU Model                               : Intel(R) Core(TM) i5 CPU M 480  @ 2.67GHz
   Architecture                            : x86-64
   Total Memory                            : 997956 kB / 974 MB / 0 GB
   Uptime                                  : 141.94 secs / 2 mins / 0 hours / 0 days
@@ -45,7 +43,7 @@ IPv4 Info:
 ```
 
 ----
-### sncalc (Subnet calcultor)
+### sncalc (Subnet Calculator)
 
 This tool takes an network IP address and CIDR value as input and provides useful 
 information like the network address, broadcast address, host range in the network, 
@@ -53,7 +51,7 @@ and wildcard mask, among others. This website also provides a list of subnets po
 with the IP & CIDR provided so that a large network can be subdivided into smaller 
 manageable subnets.
 
-It is written in Golang and works on either Linux or Windows machines.
+***It is written in Golang and works on either Linux or Windows machines.***
 
 ```markdown
 $ ./sncalc 192.168.1.0 26
@@ -84,10 +82,10 @@ All 4 of the Possible /26 Networks for 192.168.1.* (valid subnets at 4th octet):
 ```
 
 ----
-### Subnet Calculator - A Web App
+### Web Version of sncalc (Subnet Calculator)
 
 This web application performs the same operations as the sncalc tool.
 
-It is written in HTML, CSS, Javascript, & Bootstrap.
+***It is written in HTML, CSS, Javascript, & Bootstrap.***
 
 
